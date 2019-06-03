@@ -1,0 +1,263 @@
+body{
+    background: url(fondo.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    
+}
+section{
+    width: 100vw;
+    display: flex;
+    text-align: center;   
+    justify-content: center;
+}
+b{
+    margin-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    
+    display: block;  
+}
+.A{
+    display: none;
+}
+.A2{
+    display: none;
+}
+
+.Inicial{
+    background: rgba(34, 98, 158, 0.863);
+    height: 60vh;   
+    width: 40vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    margin-block-start: 50px;
+    border: solid 2px rgb(216, 180, 21);
+}
+.imagen{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    margin-block-end: 40px;
+    align-items: center;
+    background: rgba(182, 247, 4, 0.048);
+    border-radius: 50%;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+}
+.B_ER{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+.btn{
+    background: rgba(202, 186, 37, 0.801);
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    flex: 1 0 auto;
+    text-align: center;
+    color: black;
+    box-shadow: black 3px 3px 4px;
+ 
+}
+.btn:hover{
+    background:rgba(170, 154, 5, 0.849);
+    box-shadow: black 2px 2px 4px;
+
+}
+.btn:active{
+    background: rgba(131, 118, 4, 0.904);
+    box-shadow: black 1px 1px 0px;
+    color: aliceblue;
+}
+
+.pantalla{
+    background: rgba(65, 117, 165, 0.863);
+    width: 70vw;
+    height: 80vh;   
+    padding: 20px;
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    border: solid 2px rgb(216, 180, 21);
+    
+}
+
+.Icon{
+    border-right: white 2px solid;
+    margin: 15px;
+    box-sizing: border-box;
+
+}
+.Tarjetas{
+    display: flex;
+    
+}
+.Tarjeta{
+    background: rgba(202, 186, 37, 0.801);
+    display: flex;
+    margin: 10px;
+    color:black;
+    border: black 1px inset; 
+    border-radius: 10px;
+    box-shadow: black 2px 2px 4px;
+    box-sizing: border-box;
+}
+.Tarjeta:hover{
+    background: rgba(170, 154, 5, 0.849);
+    cursor: pointer;
+}
+.Tarjeta:active{
+    background: rgba(131, 118, 4, 0.904);
+    box-shadow: black 1px 1px 0px;
+    color: aliceblue;
+}
+.Contenido{
+    align-self: center;
+    font-size: 15px;
+}
+
+form{
+    box-sizing: border-box;
+    margin: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.3);
+}
+
+.Text{
+    margin: 5px;
+    text-align: center;
+}
+
+.Back{
+    background: rgba(3, 0, 167, 0.493);
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(9, 9, 122, 0.623) 3px 3px;
+}
+.Back:hover{
+    background: rgba(6, 5, 87, 0.918);
+    box-shadow: rgba(9, 9, 122, 0.623) 3px 3px 3px;
+}
+.Back:active{
+    color: antiquewhite;
+}
+.Padre{
+    display: flex;
+}
+
+.Tex{
+    width: 60%;
+    padding: 7px;
+    margin: 5px 20%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.Tex:hover{
+    background: rgb(186, 182, 248);
+}
+
+
+.boton_enviar{
+    margin-top: 10px;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 2px;
+    background: rgb(66, 66, 133);
+}
+.boton_enviar:hover{
+    cursor: pointer;
+    box-shadow: black 1px 1px;
+    
+}
+
+
+
+@media(max-width: 750px){
+    .Inicial{
+        width: 50vw;
+        height: 65vw;
+    }
+    .B_ER{
+        flex-direction: column;
+    }
+    .btn{
+        margin: 10px 0px;
+    }
+    .pantalla{
+        flex-direction: column;
+        padding: 10px;
+    }
+    img{
+        width: 100px;
+        margin: 10px;
+    }
+    .Tarjetas{
+        flex-direction: column;
+    }
+    .text{
+        display: flex;
+    }
+    .Back{
+        margin: 10px;
+    }
+}
+
+@media(min-width: 750px){
+    .Tarjeta{
+        flex-direction: column;    
+        flex: 1 0 auto;   
+    }
+    .Icon{
+        border-right: none;
+        border-block-end:white 2px solid; 
+    }
+    
+    .Tarjetas{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .padre{
+        width: 40%;
+    }
+    .Inicial{
+        
+    }
+}
+@media(max-height: 600px){
+    body{
+        padding: 2px;
+    }
+    .pantalla{
+        height: 100%;
+        margin: 0%;
+        height: 100%;
+    }
+    .P{
+        padding: 0%;
+        margin:0%;
+    }
+    .Tarjetas{
+        height: 20%;
+    }
+
+}

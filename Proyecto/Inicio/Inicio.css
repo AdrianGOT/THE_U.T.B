@@ -1,0 +1,145 @@
+body{
+    background: url(../login/fondo.jpg);
+    background-attachment: fixed;
+    background-size: 100vh 100vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background: rgb(247, 219, 62);
+    border: solid 2px rgba(212, 182, 10, 0.664);
+    margin-bottom: 25px;
+}
+.cabeza{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.setting{
+    flex: 1 0 auto;
+}
+
+.nombre{
+    flex: 3 0 auto;
+}
+
+.tex{
+    flex: 5 0 auto;
+}
+a{
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.Principal{
+    background: rgba(46, 103, 156, 0.678);;
+    height: 70vh;
+    width: 60%;
+    border: solid 2px rgb(216, 180, 21);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Clases{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+
+}
+.Contenedor{
+    display: flex;
+    justify-content: space-around;
+
+}
+.materia{
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    flex: 1 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+}
+.C{
+    box-shadow: rgb(0, 60, 255) 4px 4px 5px;
+    background: rgb(72, 72, 204);
+}
+.C:hover{
+    background: rgba(73, 73, 204, 0.671);
+    font-size: 19px;
+    box-shadow: rgb(0, 60, 255) 3px 3px 5px;
+}
+.C:active{
+    background: rgba(24, 24, 204, 0.671);
+    font-size: 19px;
+    box-shadow: rgb(0, 60, 255) 1px 1px 5px;
+}
+
+.I{
+    background: rgb(196, 186, 54);
+    box-shadow: yellow -4px 4px 5px;
+}
+.I:hover{
+    background: rgba(196, 187, 54, 0.753);
+    font-size: 19px;
+    box-shadow: yellow -3px 3px 5px;
+}
+.I:active{
+    background: rgba(196, 184, 14, 0.753);
+    font-size: 19px;
+    box-shadow: yellow -1px 1px 5px;
+}
+
+.F{
+    background: rgb(151, 55, 55);
+    box-shadow: red 4px -4px 5px;
+}
+.F:hover{
+    background: rgba(151, 55, 55, 0.678);
+    font-size: 19px;
+    box-shadow: red 3px -3px 5px;
+}
+.F:active{
+    background: rgba(148, 26, 26, 0.678);
+    font-size: 19px;
+    box-shadow: red 1px -1px 5px;
+}
+.Cu{
+    background: rgb(65, 129, 65);
+    box-shadow: green -4px -4px 5px;
+}
+.Cu:hover{
+    background: rgba(65, 129, 65, 0.692);
+    font-size: 19px;
+    box-shadow: green -3x -3px 5px;
+}
+.Cu:active{
+    background: rgba(14, 126, 14, 0.692);
+    font-size: 19px;
+    box-shadow: green -1x -1px 5px;
+}
+
+
+
+
+
+
